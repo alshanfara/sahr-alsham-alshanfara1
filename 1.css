@@ -2,6 +2,41 @@ div#l2 input#pass1, div#l2 input#u2, div#l3 input#pass2, div#l3 input#u3 {
         background-image: linear-gradient(300deg,#bc5393 0,#f59dc3 10%,#c56ba2 51%,#f59dc3 89%,#c3669f 100%);
 
  }
+ 
+ul.nav.nav-tabs>li.active>a {
+    color: #ffe000;
+        background-image: linear-gradient(300deg,#bc5393 0,#f59dc3 10%,#c56ba2 51%,#f59dc3 89%,#c3669f 100%);
+    border: none;
+    border-radius: 3px;
+}
+
+ul.nav.nav-tabs>li {
+    width: 32%;
+    margin: 0 5px 0 0;
+}
+
+ul.nav.nav-tabs>li>.fa-user-plus:before,ul.nav.nav-tabs>li>.fa-user:before,ul.nav.nav-tabs>li>.fa-user:before {
+    float: right;
+    margin-right: -26%;
+    border: 1px solid;
+    padding: 0 2px 1px;
+    border-radius: 3px;
+    width: 23px;
+    text-align: center;
+        background-image: linear-gradient(300deg,#bc5393 0,#f59dc3 10%,#c56ba2 51%,#f59dc3 89%,#c3669f 100%);
+    color: #ffffffe6;
+}
+
+ul.nav.nav-tabs>li>a {
+    color: #fff;
+    border: none;
+    text-align: center;
+        background-image: linear-gradient(300deg,#bc5393 0,#f59dc3 10%,#c56ba2 51%,#f59dc3 89%,#c3669f 100%);
+    display: initial;
+    width: 80%;
+    float: left;
+    padding: 0!important;
+}
 .border { 
     border: 2px solid #ffffff!important;
     border-top: 1px solid #f7dada!important;
@@ -24,11 +59,6 @@ label.ae.fa.label {
 
 .bg {
     background-color: #de93c1;
-}
-
-
-ul.nav.nav-tabs>li>a {
-    color: #b44087;
 }
 
 #des0 {
