@@ -37,11 +37,6 @@ ul.nav.nav-tabs>li>a {
     float: left;
     padding: 0!important;
 }
-.border { 
-    border: 2px solid #ffffff!important;
-    border-top: 1px solid #f7dada!important;
-    border-bottom: 1px solid #f7dada!important;
-}
 
 label.ae.fa.label {
     border: 1px solid #dad9d9!important;
@@ -51,14 +46,6 @@ label.ae.fa.label {
 .btn-primary {
     border-color: #ffffff!important;
     border-radius: 25px;
-}
-
-.light {
-    background-color: #f3d6e8;
-}
-
-.bg {
-    background-color: #e85092;
 }
 
 #des0 {
@@ -126,17 +113,6 @@ div#tlogins ::-webkit-scrollbar-track {
     border-radius: 34px
 }
 
-div#tlogins ::-webkit-scrollbar-track:hover {
-    background: 0 0
-}
-
-div#tlogins ::-webkit-scrollbar-track:active {
-    background: 0 0
-}
-
-div#tlogins ::-webkit-scrollbar-corner {
-    background: 0 0
-}
 
 div#tlogins .fl.mini.u-msg {
     margin-top: 3px!important;
